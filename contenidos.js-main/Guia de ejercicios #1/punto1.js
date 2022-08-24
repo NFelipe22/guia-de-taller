@@ -1,0 +1,14 @@
+let num1;
+let num2;
+num1 = prompt ("introdusca un numero");
+num2 = prompt ("introdusca otto numero");
+let suma = 0;
+let resta = 0;
+let multiplicacion = 0;
+let divicion = 0;
+suma= parserfloat(num1) + parserfloat(num2) ;
+resta= parserfloat(num1) + parserfloat(num2) ;
+multiplicacion= parserfloat(num1) + parserfloat(num2) ;
+divicion= parserfloat(num1) + parserfloat(num2) ;
+console.log("el resultado es:"+suma,-resta, *multiplicacion, /divicion);
+alert("la suma es:"+suma,-resta, *multiplicacion, /divicion);
